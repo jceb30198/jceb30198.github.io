@@ -8,17 +8,17 @@ class Nav extends React.Component {
       page: 'home'
     }
   }
+
   render() {
     return (
       <AppBar className='nav-bar' position='static'>
         <Toolbar>
-          <Typography> Home</Typography>
+          <Typography>Home</Typography>
           <Button color='inherit'>Contact</Button>
         </Toolbar>
       </AppBar>
 
     )
-
   }
 }
 

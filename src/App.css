@@ -3,9 +3,9 @@
 }
 
 body {
-  background-color: #5CDB95;
+  background-color: #379683;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);

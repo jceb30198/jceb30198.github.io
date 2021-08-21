@@ -1,10 +1,5 @@
 import React from 'react';
-import { AppBar, Button, Toolbar, Typography, styled } from '@material-ui/core';
-
-const MyAppBar = styled(AppBar)({
-  background: '#05386B',
-  color: '#EDF5E1'
-})
+import { Navbar } from 'react-bootstrap';
 
 class Nav extends React.Component {
   constructor(props) {
@@ -18,12 +13,9 @@ class Nav extends React.Component {
   render() {
 
     return (
-      <MyAppBar position='static'>
-        <Toolbar>
-          <Typography>Home</Typography>
-          <Button color='inherit'>Contact</Button>
-        </Toolbar>
-      </MyAppBar>
+      <Navbar>
+
+      </Navbar>
 
     )
   }

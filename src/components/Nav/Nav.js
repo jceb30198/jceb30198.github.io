@@ -13,7 +13,7 @@ class Navigation extends React.Component {
   render() {
 
     return (
-      <Navbar className="border-bottom border-dark bg-primary" expand="md">
+      <Navbar bg="secondary" text='light' expand="md">
         <Container>
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

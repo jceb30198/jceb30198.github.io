@@ -1,6 +1,7 @@
 import Navigation from './components/Nav/Nav.js';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
+import './App.css';
 
 function App() {
   return (

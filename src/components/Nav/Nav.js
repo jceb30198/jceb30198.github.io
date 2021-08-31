@@ -13,16 +13,18 @@ class Navigation extends React.Component {
   render() {
 
     return (
-      <Navbar bg="secondary">
-        <Container>
-          <Col xs={12}/>
-          <Nav className="me-auto text-light">
-            <Nav.Link href="#home" className='text-light'>ABOUT</Nav.Link>
-            <Nav.Link href="#portfolio" className='text-light'>PORTFOLIO</Nav.Link>
-            <Nav.Link href="#contact" className='text-light'>CONTACT</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <Container>
+        <Navbar bg="secondary">
+          <Container>
+            <Col />
+            <Nav className="me-auto text-light">
+              <Nav.Link href="#home" className='text-light'>ABOUT</Nav.Link>
+              <Nav.Link href="#portfolio" className='text-light'>PORTFOLIO</Nav.Link>
+              <Nav.Link href="#contact" className='text-light'>CONTACT</Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar>
+      </Container>
     )
   }
 }

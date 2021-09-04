@@ -1,12 +1,12 @@
+import Navigation from './components/Nav/Nav.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO</h1>
-      <header className="App-header">
-        HELLO WORLD
-      </header>
+      <Navigation/>
     </div>
   );
 }

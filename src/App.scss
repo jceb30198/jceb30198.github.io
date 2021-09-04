@@ -1,0 +1,12 @@
+// Variable Override
+$theme-colors: ( 
+  'primary': #5CDB95,
+  'secondary': #05386B,
+  'dark': #379683,
+  'light': #EDF5E1
+);
+
+$body-bg: #5CDB95;
+
+// Import Boostrap Variables
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

@@ -1,9 +1,8 @@
-import React from 'react';
 import { Nav, Navbar, Container, Col } from 'react-bootstrap';
 
 function Navigation() {
   return (
-    <Container>
+    <Container className='mb-5'>
       <Navbar bg="secondary">
         <Container>
           <Col />

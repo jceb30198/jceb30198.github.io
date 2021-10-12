@@ -1,11 +1,12 @@
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import portrait from '../../../assets/IMG_1095.jpg';
+import resume from '../../../assets/JackRCeballosResume.pdf';
 
 function Main() {
   return (
     <Container>
       <Row>
-        <Card bg='secondary' text='light' className='mb-2 text-center'>
+        <Card bg='secondary' text='light' className='mb-1 text-center'>
           <h2>Hey there, I'm Jack Ceballos!</h2>
         </Card>
       </Row>
@@ -29,20 +30,20 @@ function Main() {
             <Card.Title>Useful Links:</Card.Title>
             <ul>
               <li>
-                <a href='https://www.linkedin.com/in/jackceballosmia/' className='text-light'>LinkedIn</a>
+                <a href='https://www.linkedin.com/in/jackceballosmia/' className='text-light' target='_blank' rel='noreferrer'>LinkedIn</a>
               </li>
               <li>
-                <a href='https://github.com/jceb30198' className='text-light'>GitHub</a>
+                <a href='https://github.com/jceb30198' className='text-light' target='_blank' rel='noreferrer'>GitHub</a>
               </li>
               <li>
-                <a href='https://www.linkedin.com/in/jackceballosmia/' className='text-light'>Resume</a>
+                <a href={resume} className='text-light' target='_blank' rel='noreferrer'>Resume</a>
               </li>
             </ul>
 
           </Card>
         </Col>
       </Row>
-    </Container >
+    </Container>
   )
 }
 

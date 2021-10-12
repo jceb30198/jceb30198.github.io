@@ -2,7 +2,7 @@ import { Nav, Navbar, Container, Col } from 'react-bootstrap';
 
 function Navigation() {
   return (
-    <Container className='mb-5'>
+    <Container fluid className='mb-4'>
       <Navbar bg="secondary">
         <Container>
           <Col />

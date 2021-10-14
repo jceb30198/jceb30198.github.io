@@ -1,8 +1,8 @@
+import { Container, Col, Row, Card } from 'react-bootstrap';
+
 function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-    </div>
+  
   )
 }
 

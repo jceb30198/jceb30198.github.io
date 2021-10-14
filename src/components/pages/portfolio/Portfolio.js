@@ -3,6 +3,20 @@ import { Container, Col, Row, Card } from 'react-bootstrap';
 function Portfolio() {
   const portfolioList = [
     {
+      name: 'Handlebars Burger',
+      image: 'https://raw.githubusercontent.com/jceb30198/Handlebars_Burger/main/public/assets/images/landing00.png',
+      description: 'Simple web-application that moves burger names from the "hungry?" column to the "devoured!" column.',
+      repoLink: 'https://github.com/jceb30198/Handlebars_Burger',
+      deployedLink: 'https://limitless-forest-28943.herokuapp.com/'
+    },
+    {
+      name: 'Note Taker',
+      image: 'https://raw.githubusercontent.com/jceb30198/Note_Taker/main/public/assets/images/landing.png',
+      description: 'A web application that saves notes written by the user.',
+      repoLink: 'https://github.com/jceb30198/Note_Taker',
+      deployedLink: 'https://ancient-island-96365.herokuapp.com/'
+    },
+    {
       name: 'Employee Management System',
       image: 'https://raw.githubusercontent.com/jceb30198/Management_System/main/Assets/management.png',
       description: 'A command line application that can be used to manage the employee database.',

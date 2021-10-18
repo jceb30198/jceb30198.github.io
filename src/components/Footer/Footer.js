@@ -4,7 +4,9 @@ import resume from '../../assets/JackRCeballosResume.pdf';
 function Footer() {
   const styles = {
     root: {
-      height: '175px'
+      marginTop: '100px',
+      height: '180px',
+      width: '100%'
     },
     list: {
       listStyleType: 'none'
@@ -15,7 +17,7 @@ function Footer() {
   }
 
   return (
-    <div className='text-light bg-secondary p-3 fixed-bottom' style={styles.root}>
+    <footer className='text-light bg-secondary p-3' style={styles.root}>
     <Row>
       <Col>
         <h6>Made with React-Boostrap and Boostrap</h6>
@@ -24,6 +26,7 @@ function Footer() {
         <h6>Contact Information:</h6>
         <ul style={styles.list}>
           <li>jackrceballos@gmail.com</li>
+          <li>(305) 772-1065</li>
         </ul>
       </Col>
       <Col>
@@ -43,7 +46,7 @@ function Footer() {
           </ul>
       </Col>
       </Row>
-    </div>
+    </footer>
   )
 }
 

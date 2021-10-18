@@ -33,7 +33,7 @@ function Footer() {
         <h6>Links:</h6>
           <ul style={styles.list}>
             <li><a href='/' className='text-light' style={styles.link}>Home</a></li>
-            <li><a href='/portfolio' className='text-light' style={styles.link}>Portfolio</a></li>
+            <li><a href='#/portfolio' className='text-light' style={styles.link}>Portfolio</a></li>
             <li>
             <a href='https://www.linkedin.com/in/jackceballosmia/' className='text-light' style={styles.link} target='_blank' rel='noreferrer'>LinkedIn</a>
             </li>

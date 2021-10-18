@@ -7,7 +7,7 @@ function Navigation() {
           <Col />
           <Nav className="me-auto text-light">
             <Nav.Link href="/" className='text-light'>HOME</Nav.Link>
-            <Nav.Link href="/portfolio" className='text-light'>PORTFOLIO</Nav.Link>
+            <Nav.Link href="#/portfolio" className='text-light'>PORTFOLIO</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

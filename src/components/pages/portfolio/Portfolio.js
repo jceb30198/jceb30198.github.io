@@ -71,12 +71,11 @@ function Portfolio() {
             <Card.Body>
               <Card.Text>{project.description}</Card.Text>
               <Card.Link className='text-light' href={project.repoLink}>Repository</Card.Link>
-              {project.deployedLink ? <Card.Link className='text-light' href={project.deployedLink}>Deployed App</Card.Link> : ''}
+              {project.deployedLink ? <Card.Link className='text-light' href={project.deployedLink} target='_blank'>Deployed App</Card.Link> : ''}
             </Card.Body>
           </Card>
         </Col>
-        )
-      })}
+        )})}
       </Row>
     </Container>
   )

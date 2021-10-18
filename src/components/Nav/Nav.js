@@ -9,7 +9,6 @@ function Navigation() {
           <Nav className="me-auto text-light">
             <Nav.Link href="/" className='text-light'>ABOUT</Nav.Link>
             <Nav.Link href="/portfolio" className='text-light'>PORTFOLIO</Nav.Link>
-            <Nav.Link href="/contact" className='text-light'>CONTACT</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

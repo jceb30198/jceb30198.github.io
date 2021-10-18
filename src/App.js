@@ -1,7 +1,8 @@
 import Navigation from './components/Nav/Nav.js';
+import Footer from './components/Footer/Footer.js';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Main from './components/pages/main/Main';
-import Portfolio from './components/pages/portfolio/Portfolio';
+import Main from './components/pages/Main/Main';
+import Portfolio from './components/pages/Portfolio/Portfolio';
 import './App.min.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Navigation />
         <Route exact path='/' component={Main} />
         <Route exact path='/portfolio' component={Portfolio} />
+        <Footer />
       </div>
     </Router>
   );

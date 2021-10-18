@@ -20,7 +20,7 @@ function Footer() {
     <footer className='text-light bg-secondary p-3' style={styles.root}>
     <Row>
       <Col>
-        <h6>Made with React-Boostrap and Boostrap</h6>
+        <h6>Made with React-Boostrap and Boostrap.</h6>
       </Col>
       <Col>
         <h6>Contact Information:</h6>

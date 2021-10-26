@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7db9e04f.chunk.css",
-    "main.js": "/static/js/main.d43a1c85.chunk.js",
-    "main.js.map": "/static/js/main.d43a1c85.chunk.js.map",
+    "main.js": "/static/js/main.d0aed0df.chunk.js",
+    "main.js.map": "/static/js/main.d0aed0df.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
     "static/js/2.ea31a0a0.chunk.js": "/static/js/2.ea31a0a0.chunk.js",
@@ -11,12 +11,12 @@
     "static/css/main.7db9e04f.chunk.css.map": "/static/css/main.7db9e04f.chunk.css.map",
     "static/js/2.ea31a0a0.chunk.js.LICENSE.txt": "/static/js/2.ea31a0a0.chunk.js.LICENSE.txt",
     "static/media/IMG_1095.9dbb42c4.jpg": "/static/media/IMG_1095.9dbb42c4.jpg",
-    "static/media/JackCeballosResume.6c9893c9.pdf": "/static/media/JackCeballosResume.6c9893c9.pdf"
+    "static/media/JackRCeballosResume.2e5a2b68.pdf": "/static/media/JackRCeballosResume.2e5a2b68.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
     "static/js/2.ea31a0a0.chunk.js",
     "static/css/main.7db9e04f.chunk.css",
-    "static/js/main.d43a1c85.chunk.js"
+    "static/js/main.d0aed0df.chunk.js"
   ]
 }

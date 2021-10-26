@@ -1,5 +1,5 @@
 import { Row, Col } from 'react-bootstrap';
-import resume from '../../assets/JackRCeballosResume.pdf';
+import resume from '../../assets/JackCeballosResume.pdf';
 
 function Footer() {
   const styles = {
